@@ -18,6 +18,7 @@ class ToastManager @Inject constructor(@ApplicationContext private val context: 
     private var activity: AppCompatActivity? = null
 
     fun setup(activity: BaseBindingActivity<*>) {
+        destroy()
         this.activity = activity
         activity.lifecycle.addObserver(this)
     }

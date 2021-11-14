@@ -5,14 +5,13 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import com.google.firebase.crashlytics.internal.common.CommonUtils.hideKeyboard
 import com.stenleone.smartphone.core.activity.BaseBindingActivity
 import com.stenleone.smartphone.util.ext.hideKeyboard
 
 abstract class BaseFragment : Fragment() {
 
     protected abstract val layoutId: Int
-    val toastManager = (requireActivity() as? BaseBindingActivity<*>?)?.toastManager
+    val toastManager = (activity as? BaseBindingActivity<*>?)?.toastManager
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -28,4 +27,5 @@ abstract class BaseFragment : Fragment() {
 
         activity?.hideKeyboard()
     }
+
 }

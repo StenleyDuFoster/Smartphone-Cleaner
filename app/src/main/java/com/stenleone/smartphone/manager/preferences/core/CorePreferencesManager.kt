@@ -13,7 +13,7 @@ class CorePreferencesManager @Inject constructor(@ApplicationContext private val
     private val sharedPreferences by lazy { context.getSharedPreferences(CorePreferencesEnum.NAME.value, Context.MODE_PRIVATE) }
 
     var monetizationType: Int
-        get() = sharedPreferences.getInt(CorePreferencesEnum.MONETIZATION_TYPE.value, MonetizationEnum.ADS.value)
+        get() = sharedPreferences.getInt(CorePreferencesEnum.MONETIZATION_TYPE.value, MonetizationEnum.UNSELECTED.value)
         set(value) {
             var isValid = false
 

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--  TextView  -->
+
+
+    <!--  MaterialCardView  -->
+
+    <style name="DefaultCard">
+        <item name="cardElevation">5dp</item>
+        <item name="cardCornerRadius">0dp</item>
+        <item name="cardBackgroundColor">@color/white</item>
+    </style>
+
+    <style name="DefaultCornerCard" parent="DefaultCard">
+        <item name="cardCornerRadius">@dimen/size_8</item>
+    </style>
+
+    <style name="DefaultCornerStrokeCard" parent="DefaultCornerCard">
+        <item name="strokeWidth">1dp</item>
+        <item name="strokeColor">@color/blue_72</item>
+    </style>
+
+</resources>

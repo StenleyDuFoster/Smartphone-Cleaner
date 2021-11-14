@@ -1,9 +1,11 @@
 package com.stenleone.smartphone.ui.setupTypeOfMonetization
 
 import com.stenleone.smartphone.core.viewModel.BaseStateViewModel
+import dagger.hilt.android.lifecycle.HiltViewModel
+import javax.inject.Inject
 
-class SetupTypeMonetizationViewModel : BaseStateViewModel<SetupTypeOfMonetizationFragment.State>() {
-
+@HiltViewModel
+class SetupTypeMonetizationViewModel @Inject constructor() : BaseStateViewModel<SetupTypeOfMonetizationFragment.State>() {
 
 
 }
