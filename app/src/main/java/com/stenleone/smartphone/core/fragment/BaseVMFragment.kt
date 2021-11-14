@@ -12,7 +12,7 @@ import kotlin.reflect.KClass
 abstract class BaseVMFragment<VM : BaseViewModel, B : ViewDataBinding> :
     BaseBindingFragment<B>() {
 
-    protected lateinit var viewModel: VM
+    protected abstract val viewModel: VM
 
     private val messageObserver = Observer<String?> { toastManager?.showMessage(it) }
     private val messageResObserver = Observer<Int?> { toastManager?.showMessage(it) }
