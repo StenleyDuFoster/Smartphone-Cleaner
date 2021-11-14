@@ -1,4 +1,4 @@
-package com.stenleone.myapplication
+package com.stenleone.smartphone
 
 import org.junit.Test
 

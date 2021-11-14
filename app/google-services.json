@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "188758249769",
+    "project_id": "smatphone-cleaner",
+    "storage_bucket": "smatphone-cleaner.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:188758249769:android:1ee0f2394f1e142c43a738",
+        "android_client_info": {
+          "package_name": "com.stenleone.smartphone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "188758249769-3an1ch3jds0dplhfb5gmghhho1a5atao.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.stenleone.smartphone",
+            "certificate_hash": "53a70a7cd9365a04bf933e9b99dfa66dda61acca"
+          }
+        },
+        {
+          "client_id": "188758249769-95eufe7q1nief31vq4adgomvqsat1lfn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxf6ffL77vh-_FPJTa-Twubq97GQuR1Es"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "188758249769-95eufe7q1nief31vq4adgomvqsat1lfn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
